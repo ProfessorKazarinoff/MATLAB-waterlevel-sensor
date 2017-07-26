@@ -27,6 +27,13 @@ breadboard. A green jumper wire then connects pin D14 to a (-) pin completing th
 ![Alt text](doc/watersensor1.jpg?raw=true "Title")
 ![Alt text](doc/watersensor6.jpg?raw=true "Title")
 
+## Arduino Code
+
+The [water_level.ino](water_level.ino) sketch was uploaded on the Arduino using the Arduino IDE.
+
+## MATLAB Code
+
+The [water_level.m](water_level.m) script was run in MATLAB.
 
 ## Results
 ![Alt text](doc/results.png?raw=true "Title")
