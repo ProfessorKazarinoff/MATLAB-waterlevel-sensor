@@ -23,6 +23,7 @@ connected to pin D26 takes the current to a connector plug which plugs into the 
 sensor. The red wire coming off the water level sensor plug connects to pin C14 on the
 breadboard. A green jumper wire then connects pin D14 to a (-) pin completing the circuit.
 
+![Alt text](doc/fritzing_diagram.png?raw=true "Title")
 ![Alt text](doc/watersensor1.jpg?raw=true "Title")
 ![Alt text](doc/watersensor6.jpg?raw=true "Title")
 
