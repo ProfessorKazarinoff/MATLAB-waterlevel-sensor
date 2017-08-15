@@ -10,6 +10,19 @@ user to select how many seconds to record the water level, and whether or not to
 to a graphical plot.
 
 ## Hardware Setup
+
+### Bill of Materials
+|component|vendor|
+|---|---|
+|Arduino|[SparkFun RedBoard - Programmed with Arduino](https://www.sparkfun.com/products/13975)|
+|Water Level Sensor|[12" eTape Liquid Level Sensor + extras](https://www.adafruit.com/product/464)|
+|560 Ω resistor|[560 Ohm Resistor incldued with Liquid Level Sensor](https://www.adafruit.com/product/464)|
+|Breadboard|[Breadboard - Self-Adhesive (White)](https://www.sparkfun.com/products/12002)|
+|Jumper wires|[Jumper Wires Premium 6" M/M Pack of 10](https://www.sparkfun.com/products/8431 )|
+|Breadboard Base|[Arduino and Breadboard Holder](https://www.sparkfun.com/products/11235)|
+|Mini-B USB cable|[SparkFun USB Mini-B Cable - 6 Foot](https://www.sparkfun.com/products/11301)|
+
+### Component Connections
 The microcontroller is connected to the computer via a USB cable, which also supplies
 the power. The red wire connected to the RedBoard is connected to the 5v pin and drives
 voltage to the breadboard via a (+) pin. The green wire connected to the RedBoard is connected
