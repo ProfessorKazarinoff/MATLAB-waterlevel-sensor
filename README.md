@@ -54,3 +54,6 @@ The [water_level.m](water_level.m) script was run in MATLAB.
 ## Future Work
 Future work could include interfacing with the pump to turn on when the water level falls
 below a certain level, and turn off when water level reaches a maximum desirable level.
+
+## License
+GNU General Public License v3.0
