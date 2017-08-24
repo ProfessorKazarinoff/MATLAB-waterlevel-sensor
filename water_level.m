@@ -50,5 +50,8 @@ for i=1:length(x);
     drawnow % draw in the data point
 end
 
-%% close the arduino serial object
+%% Close the arduino serial object
 fclose(a);
+delete(a)
+clear a;
+disp('Serial Port is closed')
