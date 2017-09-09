@@ -46,6 +46,7 @@ for i=1:length(x);
     ax.XLim = datenum([t-seconds(15) t]); % Update axes
     datetick('x','keeplimits') % update tick marks
     drawnow % draw in the data point
+    pause(.01) % wait 10 milliseconds before next serial reading
 end
 
 %% Close the arduino serial object
