@@ -37,6 +37,6 @@ void loop(void) {
   Serial.println(reading);
 
  
-  delay(50);
+  delay(100);
 
 }
