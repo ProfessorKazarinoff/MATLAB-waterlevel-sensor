@@ -14,9 +14,8 @@ a=serial('COM4','BaudRate',9600);
 fopen(a);
 
 %% set up the animated figure
-
 time_interval = input('For how many seconds would you like to measure the water level? ')
-
+%
 figure
 h = animatedline;
 ax = gca;              % gca - get current axis. Allows axis to be modified.
@@ -26,16 +25,15 @@ xlabel('time (in seconds)')
 ylabel('water depth (in inches)')
 title('water depth vs. time')
 grid on
-
-
+%
+%
 x=linspace(1,time_interval,time_interval); % can change to change the number of data points 
 startTime = datetime('now'); %saves the current time
-
+%
 user_choice = input('Would you like to save the figure (1 for yes/2 for no)? ')
 if user_choice == 1
     savefig('water depth vs. time.fig')
 end
-
 
 %% collect serial data from the arduino
 serial_data = [0]
